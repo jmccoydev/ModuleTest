@@ -5,3 +5,8 @@ variable "region"{
 variable "name"{
   description = "VPC Name"
 }
+
+variable "azs"{
+  type = list
+  description = "Availability Zones"
+}
